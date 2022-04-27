@@ -1,0 +1,35 @@
+
+@media all {
+    h4 {
+        font-weight: bold;
+    }
+
+    section h2 {
+        color: green;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    h1 {
+        color: blue;
+    }
+    section h2 {
+        color: green;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    h1 {
+        color: black;
+        border: 2px solid green;
+    }
+    h4 {
+        color: blue;
+    }
+    section h2 {
+        color: green;
+    }
+
+}

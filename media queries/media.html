@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Media queries</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <header>
+            <h1>Les media queries ou les requêtes multimédias</h1>
+            <h4>I-Les différents types de media queries</h4>
+            <ol>
+                <li>All</li>
+                <li>screen</li>
+                <li>print</li>
+                <li>speech</li>
+            </ol>
+            <h4>II-Les caractéristiques</h4>
+            <ol>
+                <li>width</li>
+                <li>min-width</li>
+                <li>max-width</li>
+            </ol>
+            <h4>III-Les opérateurs logiques</h4>
+            <ol>
+                <li>not</li>
+                <li>only</li>
+                <li>and</li>
+                <li>virgule</li>
+            </ol>
+
+        </header>
+
+        <!--Les médias-->
+        <section>
+            <h2>I-Les différents types de media queries</h2>
+            <div>
+                <h5>All</h5>
+                <p>All permet d'appliquer des règles à tous les écrans. C'est lui qui donne les
+                    règles par défaut.
+                </p>
+            </div>
+            <div>
+                <h5>Screen</h5>
+                <p>Screen est utilisé pour appliquer des règles sur différents les appareils
+                    (ordinateur, téléphone, ...) qui possèdent un écran.
+                </p>
+            </div>
+            <div>
+                <h5>Print</h5>
+                <p>
+                    Print est utilisé pour créer les pages "avant impressions".
+                </p>
+            </div>
+            <div>
+                <h5>Speech</h5>
+                <p>Speech s'applique seulement aux liseurs d’écran qui rende le contenu d'une
+                    page web en page sonore.
+                </p>
+            </div>
+        </section>
+        <!--Les caractéristiques-->
+
+        <section>
+            <h2>II-Les caractéristiques</h2>
+            <div>
+                <h5>Width</h5>
+                <p>width permet d'appliquer des règles à tous les écrans. C'est lui qui donne
+                    les règles par défaut.
+                </p>
+            </div>
+            <div>
+                <h5>min-width</h5>
+                <p>min-width est utilisé lorsque l'on souhaite que les règles qui sont
+                    appliquées dans le média quéry soit utilisé jusqu'à ce que la taille de l'écran
+                    atteint la largeur minimum souhaitée(ex: min-width:800px)
+                </p>
+            </div>
+            <div>
+                <h5>max-width</h5>
+                <p>
+                    max-width est utilisé lorsque l'on souhaite que les règles qui sont appliquées
+                    dans le média quéry soit utilisé jusqu'à ce que la taille de l'écran atteint la
+                    largeur maximum souhaitée (ex: max-width:1000px)
+                </p>
+            </div>
+
+        </section>
+        <!--Les opérateurs logiques-->
+
+        <section>
+            <h2>III-Les opérateurs logiques</h2>
+            <div>
+                <h5>Not</h5>
+                <p>
+                    Not va inverser le résultat d'une requête uniquement sur celle où il est
+                    appliqué. Il ne peut pas inverser une autre caractéristique (only, and ...). Les
+                    règles de not vont donc s'appliquer à tous les appareils media sauf à celui
+                    qu'on lui indique.
+                </p>
+            </div>
+            <div>
+                <h5>Only</h5>
+                <p>
+                    Only enlève les caractéristiques média lorsqu'ils ne peuvent pas etre pris en
+                    charge par un naviguateur. Cela s'applique seulement sur les anciennes versions
+                    des naviguateurs, les navigateurs moderne ne subiront aucun dégat.
+                </p>
+            </div>
+            <div>
+                <h5>And</h5>
+                <p>
+                    And permet de séparer 2 conditions.
+                </p>
+            </div>
+            <div>
+                <h5>Virgule</h5>
+                <p>
+                    <p>La virgule permettent d'utiliser plusieurs requêtes</p>
+                </p>
+            </div>
+
+        </section>
+
+    </body>
+</html>
